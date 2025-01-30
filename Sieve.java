@@ -7,6 +7,16 @@ public class Sieve {
 		for (int i =2; i<=limit; i++) {
 			prime[i] = true;
 		}
+
+		for (int p = 2; p * p <= limit; p++){
+			if(prime[p] == true) {
+				for (int i = p*p; i <= limit; i+=p) {
+					prime[i] = false;
+				}
+			}
+		}
+
+		for 
 		
 	}
 
