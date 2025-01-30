@@ -16,8 +16,16 @@ public class Sieve {
 			}
 		}
 
-		for (int p = 2;) 
+		for (int p = 2; p <= limit; p++) {
+			if(prime[p] == true) {
+				System.out.print(p + " ");
+			}
+		} 
 		
+	}
+
+	public static void main(String[] args) {
+		simpleSieve(100);
 	}
 
 }
