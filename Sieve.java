@@ -16,7 +16,7 @@ public class Sieve {
 			}
 		}
 
-		for 
+		for (int p = 2;) 
 		
 	}
 
