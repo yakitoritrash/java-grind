@@ -9,9 +9,19 @@ public class Euler{
 		}
 
 		for (int p =3; p*p <=n; p+=2) {
-			if(n % p == 0)
+			if(n % p == 0) {
+				result -= result/p;
+				while (n % p == 0) n /= p;
+			}
 		}
+
+		if (n>1) result -= result / n;
+		return result;
 	
+	}
+
+	public static void main(String[] args) {
+		System.out.println(eulerPhi(12));
 	}
 
 }
