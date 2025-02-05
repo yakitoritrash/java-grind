@@ -21,7 +21,7 @@ public class Euler{
 	}
 
 	public static void main(String[] args) {
-		System.out.println(eulerPhi(12));
+		System.out.println(eulerPhi(60));
 	}
 
 }
