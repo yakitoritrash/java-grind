@@ -3,7 +3,7 @@ public class MathUtils {
         return a + b;
     }
 
-    public static void main(String[] args) {
+    static public  void main(String[] args) {
 
 
 	    int sum = MathUtils.add(5, 3); // No object needed!
