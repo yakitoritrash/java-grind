@@ -2,6 +2,10 @@ public class Constructor{
 int id;
 String name;
 
+Constructor(){
+System.out.println("No args");
+}
+
 Constructor(int i, String n){
 id = i;
 name = n; 
@@ -17,5 +21,6 @@ Constructor s2 = new Constructor(1, "lukas");
 Constructor s3 = new Constructor();
 s1.display();
 s2.display();
+s3.display();
 }
 }
